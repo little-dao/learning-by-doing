@@ -1,0 +1,127 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* Button Styles */
+.cta-button {
+    display: inline-block;
+    background-color: #fff;
+    color: #007bff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
+
+/* Feature Section Styles */
+#features {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+.feature {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feature h3 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 1.1rem;
+}
+
+/* Testimonial Section Styles */
+#testimonials {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+.testimonial {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.testimonial blockquote {
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
+/* Pricing Section Styles */
+#pricing {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+#pricing ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#pricing li {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* Contact Section Styles */
+#contact {
+    background-color: #007bff;
+    color: #fff;
+    padding: 50px 0;
+}
+
+#contact ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#contact li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+#contact a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+#contact a:hover {
+    color: #f0f0f0;
+}
